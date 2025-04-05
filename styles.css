@@ -1,2 +1,14 @@
 
 /* Your CSS Code here. */
+/* Apply borders and padding to all tables, th, and td */
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 8px;
+}
+
+/* Style for the cell that contains "HTML" */
+.black-cell {
+  background-color: black;
+  color: white;
+}
